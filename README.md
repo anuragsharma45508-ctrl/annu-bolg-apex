@@ -51,14 +51,8 @@ It demonstrates **role-based access**, **CRUD operations**, **search & paginatio
 - Secure logout
 - Shows **who created each post**
 
----
 
 
----
-
-### 🔹 Created by
-www.linkedin.com/in/aaditya-jatav-2721a4327
-https://github.com/Aditya12119
 
 
 
