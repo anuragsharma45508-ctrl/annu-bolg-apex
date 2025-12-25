@@ -1,0 +1,124 @@
+/* General layout */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+  background: #fafafa;
+  color: #333;
+}
+
+/* Navigation bar */
+nav {
+  margin-bottom: 16px;
+}
+nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #0077cc;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.who {
+  margin-left: 8px;
+  color: #555;
+}
+
+/* Forms */
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+input[type=text],
+input[type=password],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+button:hover {
+  background: #005fa3;
+}
+
+/* Posts */
+.post {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  background: #fff;
+}
+.post h3 {
+  margin-top: 0;
+}
+.actions a {
+  margin-right: 8px;
+  color: #0077cc;
+  text-decoration: none;
+}
+.actions a:hover {
+  text-decoration: underline;
+}
+
+/* Messages */
+.error {
+  color: #c00;
+}
+.success {
+  color: #080;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 12px 0 18px;
+}
+.search-bar input[type=text] {
+  padding: 6px 8px;
+  width: 280px;
+}
+.search-bar .clear {
+  color: #555;
+  text-decoration: none;
+}
+.search-bar .clear:hover {
+  text-decoration: underline;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 16px;
+}
+.pagination a,
+.pagination strong {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #0077cc;
+}
+.pagination strong {
+  background: #f0f0f0;
+  font-weight: bold;
+  color: #000;
+}
+.pagination a:hover {
+  background: #e6f0ff;
+}
